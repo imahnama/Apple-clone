@@ -1,0 +1,45 @@
+body{
+
+}
+
+header{
+  height: 200px;
+  background-color: #FFFAE1;
+}
+
+.main{
+
+    background-color: #EEEEEE;
+
+
+}
+
+.landing-img{
+    height: 100vh;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.img1{
+    height: 200px;
+
+}
+
+.img2{
+    height: 200px;
+
+}
+
+.img3{
+    height: 200px;
+
+}
+
+.img4{
+    height: 200px;
+
+}
