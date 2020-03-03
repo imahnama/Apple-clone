@@ -3,7 +3,7 @@
 
 > Recreating the old Apple website
 
-> ![screenshot](11.png)
+> ![screenshot](12.png)
 
 ## Built With
 
