@@ -1,21 +1,20 @@
-main{
+main {
   display: grid;
-
 }
 
-header{
+header {
   height: 550px;
   background-image: url("../images/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-header img{
+header img {
   width: auto;
   height: auto;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -27,124 +26,123 @@ nav{
   background-color: rgb(130, 130, 130);
 }
 
-
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   font-size: 15px;
 }
 
-.nav-main{
-  padding: 8px 0px 8px 0px;
+.nav-main {
+  padding: 8px 0 8px 0;
   text-align: center;
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 
-.nav-main1{
+.nav-main1 {
   border-left: 1px solid #313131;
-  padding: 8px 0px 8px 0px;
+  padding: 8px 0 8px 0;
   text-align: center;
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 
-.nav-main:hover, .nav-main1:hover{
+.nav-main:hover, .nav-main1:hover {
   background-color: #454545;
 }
 
-.search{
+.search {
   position: relative;
   width: 80px;
   border-radius: 8px;
 }
 
-nav .fas{
+nav .fas {
   position: fixed;
   top: 120px;
   left: 1223px;
 }
 
-.header-txt{
+.header-txt {
   display: flex;
   text-decoration: none;
 }
 
-.header-txt1 a, .header-txt2 a{
+.header-txt1 a, .header-txt2 a {
   text-decoration: none;
   color: white;
 }
 
-.header-txt1 p{
+.header-txt1 p {
   font-size: 50px;
   margin-top: 70px;
   text-align: center;
 }
 
-.header-txt2 p{
+.header-txt2 p {
   width: 100%;
   font-size: 30px;
   text-align: center;
 }
 
-.images{
+.images {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-.img1{
+.img1 {
   width: 100%;
   height: auto;
 }
 
-.images img{
+.images img {
   width: 100%;
   height: 100%;
 }
 
-.img2{
+.img2 {
   width: 100%;
   height: 200px;
 }
 
-.img3{
+.img3 {
   width: 100%;
   height: 200px;
 }
 
-.img4{
+.img4 {
   width: 100%;
   height: 200px;
 }
 
-footer{
+footer {
   width: 100%;
   height: 80px;
   font-size: 11px;
   margin-top: 20px;
 }
 
-.footer-txt{
+.footer-txt {
   width: 100%;
   margin-right: 100px;
   margin-left: 180px;
 }
 
-footer span{
+footer span {
   margin-right: 8px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #0087CC;
 }
 
-footer img{
+footer img {
   width: 10px;
   height: 10px;
 }
 
-footer p{
+footer p {
   margin-top: 20px;
   margin-left: 180px;
 }
