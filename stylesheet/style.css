@@ -1,45 +1,147 @@
-body{
+main{
+    display: grid;
 
 }
 
 header{
-  height: 200px;
-  background-color: #FFFAE1;
+    height: 550px;
+    background-image: url("../images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.main{
-
-    background-color: #EEEEEE;
-
-
+header img{
+    width: auto;
+    height: auto;
 }
 
-.landing-img{
-    height: 100vh;
-    background-color: white;
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+    border-radius: 8px;
+    background-color: rgb(130, 130, 130);
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.nav-main{
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.nav-main1{
+    border-left: 1px solid #313131;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.nav-main:hover, .nav-main1:hover{
+    background-color: #454545;
+}
+
+.search{
+    width: 80px;
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.header-txt{
+    display: flex;
+    text-decoration: none;
+}
+
+.header-txt1 a, .header-txt2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-txt1 p{
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.header-txt2 p{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .img1{
-    height: 200px;
+    width: 100%;
+    height: auto;
+}
 
+.images img{
+    width: 100%;
+    height: 100%;
 }
 
 .img2{
+    width: 100%;
     height: 200px;
-
 }
 
 .img3{
+    width: 100%;
+    height: 200px;
+}
+
+.img4{
+    width: 100%;
     height: 200px;
 
 }
 
-.img4{
-    height: 200px;
+footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    font-size: 11px;
+    margin-top: 20px;
+    justify-content: center;
+}
 
+.footer-txt{
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+footer span{
+    justify-content: flex-end;
+    margin-right: 8px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0087CC;
+}
+
+footer img{
+    width: 10px;
+    height: 10px;
+}
+
+footer p{
+    margin-top: 20px;
 }
