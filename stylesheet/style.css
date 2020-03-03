@@ -1,0 +1,156 @@
+main {
+  display: grid;
+}
+
+header {
+  height: 550px;
+  background-image: url("../images/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header img {
+  width: auto;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-top: 1px solid #313131;
+  border-bottom: 1px solid #313131;
+  border-radius: 8px;
+  background: radial-gradient(#828282, #454545);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.nav-main {
+  padding: 8px 0 8px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-main1 {
+  border-left: 1px solid #313131;
+  padding: 8px 0 8px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-main:hover,
+.nav-main1:hover {
+  background-color: #454545;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search {
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.search-bar .fas {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+
+.header-txt {
+  display: flex;
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0087cc;
+}
+
+.header-txt1 a,
+.header-txt2 a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.header-txt1 p {
+  font-size: 50px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.header-txt2 p {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+footer img {
+  width: 10px;
+  height: 10px;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
+
+.img2 {
+  width: 100%;
+  height: 200px;
+}
+
+.img3 {
+  width: 100%;
+  height: 200px;
+}
+
+.img4 {
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+.footer-txt {
+  width: 100%;
+  margin-right: 100px;
+  margin-left: 180px;
+}
+
+footer span {
+  margin-right: 8px;
+}
