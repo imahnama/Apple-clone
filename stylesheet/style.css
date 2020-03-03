@@ -24,6 +24,7 @@ nav {
   border-bottom: 1px solid #313131;
   border-radius: 8px;
   background-color: rgb(130, 130, 130);
+  background: radial-gradient(#828282, #454545);
 }
 
 nav a {
@@ -52,16 +53,22 @@ nav a {
   background-color: #454545;
 }
 
-.search {
+.search-bar {
   position: relative;
-  width: 80px;
+}
+
+.search {
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
   border-radius: 8px;
 }
 
-nav .fas {
-  position: fixed;
-  top: 120px;
-  left: 1223px;
+.search-bar .fas {
+  position: absolute;
+  top: 10px;
+  left: 25px;
 }
 
 .header-txt {
