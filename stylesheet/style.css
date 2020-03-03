@@ -60,9 +60,9 @@ nav a{
 }
 
 nav .fas{
-  position: absolute;
+  position: fixed;
   top: 120px;
-  left: 1185px;
+  left: 1223px;
 }
 
 .header-txt{
