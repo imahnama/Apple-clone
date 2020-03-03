@@ -47,7 +47,8 @@ nav a {
   margin: 0;
 }
 
-.nav-main:hover, .nav-main1:hover {
+.nav-main:hover,
+.nav-main1:hover {
   background-color: #454545;
 }
 
@@ -68,9 +69,20 @@ nav .fas {
   text-decoration: none;
 }
 
-.header-txt1 a, .header-txt2 a {
+footer a {
+  text-decoration: none;
+  color: #0087cc;
+}
+
+.header-txt1 a,
+.header-txt2 a {
   text-decoration: none;
   color: white;
+}
+
+footer p {
+  margin-top: 20px;
+  margin-left: 180px;
 }
 
 .header-txt1 p {
@@ -93,6 +105,11 @@ nav .fas {
 .img1 {
   width: 100%;
   height: auto;
+}
+
+footer img {
+  width: 10px;
+  height: 10px;
 }
 
 .images img {
@@ -130,19 +147,4 @@ footer {
 
 footer span {
   margin-right: 8px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #0087CC;
-}
-
-footer img {
-  width: 10px;
-  height: 10px;
-}
-
-footer p {
-  margin-top: 20px;
-  margin-left: 180px;
 }
